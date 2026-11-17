@@ -1,0 +1,24 @@
+# --- Builds y dependencias (se regeneran) ---
+.gradle/
+build/
+node_modules/
+.idea/
+*.iml
+local.properties
+
+# --- Binarios y firmas (no subir a git) ---
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+
+# --- BMAD: ajustes personales ---
+_bmad/config.user.toml
+_bmad/custom/*.user.toml
+_bmad/render/
+
+# --- Sistema ---
+Thumbs.db
+desktop.ini
+.DS_Store
